@@ -10,13 +10,13 @@ function Footer(){
         </NavLogo2>
         <NavMenu>
             <NavItem>
-                <NavLinks to="/">Contact</NavLinks>    
+                <NavLinks to="/contact">Contact</NavLinks>    
             </NavItem>    
             <NavItem>
-                <NavLinks to="/events">Accessibility</NavLinks>    
+                <NavLinks to="/accessibility">Accessibility</NavLinks>    
             </NavItem>
             <NavItem>
-                <NavLinks to="/events">Privacy Policy</NavLinks>    
+                <NavLinks to="/policy">Privacy Policy</NavLinks>    
             </NavItem>
         </NavMenu>
         <NavMenu>

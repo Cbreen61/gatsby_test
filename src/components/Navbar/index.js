@@ -47,10 +47,10 @@ const Navbar = () => {
                             <NavLinks to="/events">Events</NavLinks>    
                         </NavItem>  
                         <NavItem>
-                            <NavLinks to="/events">Frozen Pizza</NavLinks>    
+                            <NavLinks to="/FrozenPizza">Frozen Pizza</NavLinks>    
                         </NavItem> 
                         <NavItem>
-                            <NavLinks to="/events">Careers</NavLinks>    
+                            <NavLinks to="/careers">Careers</NavLinks>    
                         </NavItem> 
                         <NavItem>
                             <NavLinks to="https://shop.robertaspizza.com/">Shop</NavLinks>    
