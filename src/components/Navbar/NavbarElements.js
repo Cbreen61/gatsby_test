@@ -3,8 +3,8 @@ import styled from "styled-components"
 
 
 
-export const Nav = styled.nav`
-    background: ${({ active }) => active ? "#fff" : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
+export const Nav = styled.nav`  
+background: ${({ active }) => active ? "#fff" : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
     height: 80px;
     display: flex;
     justify-content: center;
