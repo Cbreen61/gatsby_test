@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 function FrozenPizza (){
     return(
-        <h1>Pizza Order</h1>
+        <Layout><h1>Pizza Order</h1></Layout>
     )
 }
 

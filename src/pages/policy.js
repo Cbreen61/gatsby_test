@@ -1,8 +1,10 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 function Policy (){
     return (
-        <h1>Policy</h1>
+        <Layout><h1>Policy</h1></Layout>
+        
     )
 }
 
