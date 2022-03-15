@@ -78,7 +78,7 @@ export const NavMenu = styled.ul`
     @media screen and (max-width: 960px){ 
         display: block;
         flex-direction: column;
-        width: 40%;
+        width: 30%;
         height: 100vh;
         position: absolute;
         top: ${({ click }) => (click ? "100%":"-1000px" ) };
