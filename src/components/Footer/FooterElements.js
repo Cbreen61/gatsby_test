@@ -50,7 +50,7 @@ font-family: 'Dancing Script', cursive;
 
 export const WebsiteRights = styled.small`
 color: #fff;
-margin-bottom: 16px;
+margin-bottom: px;
 font-family: "Ubuntu", sans-serif;
 `
 export const SocialIcons = styled.div`
@@ -74,9 +74,24 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100px;
-font-size: 18px;
+font-size: 14px;
 color: #fff;
 text-decoration: none;
+font-family: "Ubuntu", sans-serif;
+
+
+
+@media screen and (max-width: 820px) {
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+        color: #ff4040;
+        transition: all 0.3s ease;
+    }
+}
 
 
 

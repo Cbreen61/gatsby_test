@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Button = styled.button`
 border-radius: 4px;
 background: ${({ primary }) => (primary ? "#e60f00" : "#06000e")};
-white-space: nowrap;
+white-space: no-wrap;
 padding: ${({ big }) => ( big ? "16px 64px" : "10px 20px")};
 color: #fff;
 font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
@@ -11,6 +11,7 @@ outline: none;
 border: none;
 cursor: pointer;
 font-family: "Ubuntu", sans-serif;
+justify-self: center;
 
 &:hover {
     transition: all 0.3s ease-out;

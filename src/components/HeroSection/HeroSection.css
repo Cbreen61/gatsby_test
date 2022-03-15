@@ -1,7 +1,6 @@
 .hero-container{
-    background: url("../../images/oven.jpg") center center/cover no-repeat;
+    background: url("../../images/background.webp") center center/cover no-repeat;
     height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,35 +11,80 @@
 
 }
 
-.hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: 0px;
 
+.hero-btns {
+    margin-top: 2rem;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    border: 1px solid rgba(255,255,255,var(--tw-border-opacity));
+    border-radius: 0.125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Flama-SemiCondensed,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    text-decoration: none;
 }
 
-.hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-}
-
-.her-btns {
-    margin-top: 32px;
-}
 
 @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-        font-size: 70px;
+    .about > h1 {
+        font-size: 60px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-        font-size: 60px;
+    .about > h1 {
+        font-size: 50px;
     }
 
-    .hero-container > p {
-        font-size: 30px;
+   .about > p {
+        font-size: 20px;
     }
+}
+.about {
+    background-color: #fff;
+    align-items: center;
+    display: block;
+    box-sizing: border-box;
+    border:1px solid #fff;
+    object-fit: contain;
+    margin-top: 100px;
+    font-family: Flama-SemiCondensed,Helvetica,Arial,sans-serif;
+    text-align: center;
+
+}
+
+
+.about > h1 {
+    color: black;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    justify-self: flex-start;
+    font-family: Flama-SemiCondensed,Helvetica,Arial,sans-serif;
+
+}
+.about > p {
+    color: black;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    font-family: Flama-SemiCondensed,Helvetica,Arial,sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: .02%;
+    max-width: 45ch;
 }

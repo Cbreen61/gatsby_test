@@ -36,10 +36,7 @@ const Navbar = () => {
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </MobileIcon>
-                    <NavMenu onClick={handleClick} click={ click }>
-                        <NavItem>
-                            <NavLinks to="/">Home</NavLinks>    
-                        </NavItem>    
+                    <NavMenu onClick={handleClick} click={ click }> 
                         <NavItem>
                             <NavLinks to="/locations">Locations</NavLinks>    
                         </NavItem>  
@@ -50,10 +47,10 @@ const Navbar = () => {
                             <NavLinks to="/FrozenPizza">Frozen Pizza</NavLinks>    
                         </NavItem> 
                         <NavItem>
-                            <NavLinks to="/careers">Careers</NavLinks>    
+                            <NavLinks href="https://culinaryagents.com/groups/656-Roberta%2527s" target="_blank" aria-label="Culinary Agents">Careers</NavLinks>    
                         </NavItem> 
                         <NavItem>
-                            <NavLinks to="https://shop.robertaspizza.com/">Shop</NavLinks>    
+                            <NavLinks href="https://shop.robertaspizza.com/" target="_blank" aria-label="Shopify Store">Merch</NavLinks>    
                         </NavItem> 
                     </NavMenu>
                  </NavbarContainer>

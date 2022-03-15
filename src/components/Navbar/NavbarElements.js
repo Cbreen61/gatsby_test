@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 
 export const Nav = styled.nav`  
-background: ${({ active }) => active ? "#fff" : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
+background: ${({ active }) => active ? "#101522" : "#101522"};
     height: 80px;
     display: flex;
     justify-content: center;
@@ -15,8 +15,13 @@ background: ${({ active }) => active ? "#fff" : "linear-gradient(to bottom, rbga
     z-index: 999;
 
     @media screen and (max-width: 960px) {
-        background: ${({ click }) => (click ? "#fff" : "transparent")};
+        background: ${({ click }) => (click ? "none" : "transparent")};
         transition: 0.8s all ease;
+        width: 100%; 
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 `
 
@@ -34,24 +39,6 @@ export const NavLogo = styled(Link)`
 color: #f3f079;
 justify-self: flex-start;
 cursor: pointer;
-text-decoration: none;
-font-size: 1.5rem;
-display: flex;
-align-items: center;
-font-family: 'Dancing Script', cursive;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=League+Script&display=swap');
-
-&:hover {
-    color: #ff4040;
-    transition: all 0.3s ease;
-}
-`
-export const NavLogo2 = styled(Link)`
-color: #f3f079;
-justify-self: flex-start;
-cursor: none;
 text-decoration: none;
 font-size: 1.5rem;
 display: flex;
@@ -89,15 +76,22 @@ export const NavMenu = styled.ul`
     text-align: center;
 
     @media screen and (max-width: 960px){ 
-        display: flex;
+        display: block;
         flex-direction: column;
-        width: 100%;
-        height: 90vh;
+        width: 40%;
+        height: 100vh;
         position: absolute;
         top: ${({ click }) => (click ? "100%":"-1000px" ) };
         opacity: 1;
         transition: all 0.2s ease;
         background: #fff;
+        position: absolute;
+        right: 0;
+        border:1px solid #fff;
+
+
+
+
     }
 `
 
@@ -110,7 +104,7 @@ height: 80px;
 `
 
 export const NavLinks = styled(Link)`
-color: #141414;
+color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -123,6 +117,7 @@ font-family: "Ubuntu", sans-serif;
     padding: 2rem;
     width: 100%;
     display: table;
+    color: #101522;
 
     &:hover {
         color: #ff4040;
@@ -130,4 +125,3 @@ font-family: "Ubuntu", sans-serif;
     }
 }
 `
-
