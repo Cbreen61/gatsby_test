@@ -22,7 +22,7 @@ const Footer = () => {
                             <FaInstagram/>
                         </SocialIconLink>
                         <SocialIconLink href="https://www.yelp.com/biz/robertas-brooklyn-2" target="_blank" aria-label="Yelp">
-                            <FaYelp />Yelp
+                            <FaYelp />
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>

@@ -64,7 +64,7 @@ width: 240px;
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
-margin-top: 15px;
+
 text-decoration: none;
 `
 export const Socialgroup = styled.div`
@@ -77,7 +77,7 @@ width: 100px;
 font-size: 18px;
 color: #fff;
 text-decoration: none;
-margin-bottom: 5px;
+
 
 
 
