@@ -1,15 +1,16 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaYelp } from 'react-icons/fa'
-import { FooterContainer,SocialIconLink, SocialLogo, SocialMedia,SocialLink, SocialMediaWrap, WebsiteRights, SocialIcons } from './FooterElements'
+import { NavLogo } from '../Navbar/NavbarElements'
+import { FooterContainer,SocialIconLink, SocialMedia,SocialLink, SocialMediaWrap, WebsiteRights, SocialIcons } from './FooterElements'
 
 const Footer = () => {
     return (
         <FooterContainer>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to ="/">
+                    <NavLogo to ="/">
                         Roberta's
-                    </SocialLogo>
+                    </NavLogo>
                     <WebsiteRights> Roberta's © {new Date().getFullYear()}</WebsiteRights>
                         <SocialLink to="/contact">Contact</SocialLink>
                         <SocialLink to="/accessibility">Accessibility</SocialLink>

@@ -26,26 +26,6 @@ margin: 20px auto;
 
 }
 `
-export const SocialLogo = styled(Link)`
-color: #f3f079;
-justify-self: start;
-cursor: pointer;
-text-decoration: none;
-font-size: 2rem;
-display: flex;
-align-items: center;
-margin-bottom: 16px;
-font-family: 'Dancing Script', cursive;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=League+Script&display=swap');
-
-&:hover {
-    color: #ff4040;
-    transition: all 0.3s ease;
-}
-
-`
 
 
 export const WebsiteRights = styled.small`
