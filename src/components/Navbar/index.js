@@ -47,10 +47,10 @@ const Navbar = () => {
                             <NavLinks to="/FrozenPizza">Frozen Pizza</NavLinks>    
                         </NavItem> 
                         <NavItem>
-                            <NavLinks href="https://culinaryagents.com/groups/656-Roberta%2527s" target="_blank" aria-label="Culinary Agents">Careers</NavLinks>    
+                            <NavLinks href="https://culinaryagents.com/groups/656-Roberta%2527s" target="_blank" rel="noreferrer" aria-label="Culinary Agents">Careers</NavLinks>    
                         </NavItem> 
                         <NavItem>
-                            <NavLinks href="https://shop.robertaspizza.com/" target="_blank" aria-label="Shopify Store">Merch</NavLinks>    
+                            <NavLinks href="https://shop.robertaspizza.com/" target="_blank" rel="noreferrer" aria-label="Shopify Store">Merch</NavLinks>    
                         </NavItem> 
                     </NavMenu>
                  </NavbarContainer>
