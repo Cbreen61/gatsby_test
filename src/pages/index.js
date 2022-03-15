@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import HeroSection from "../components/HeroSection"
-import About from "../components/about"
+
 
 const IndexPage = () => (
   <Layout>
